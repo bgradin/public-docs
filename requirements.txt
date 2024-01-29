@@ -1,0 +1,3 @@
+# netlify requirements
+mkdocs
+mkdocs-material
