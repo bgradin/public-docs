@@ -1,4 +1,7 @@
 const fs = require('fs');
+
+require("dotenv").config();
+
 const { downloadFolder } = require("./google-drive");
 
 const BUILD_FOLDER = "./files";
@@ -8,15 +11,15 @@ if (!process.env.GOOGLE_DRIVE_FOLDER_ID) {
   process.exit(1);
 }
 
-try {
-  if (!fs.existsSync(BUILD_FOLDER)) {
-    fs.mkdirSync(BUILD_FOLDER);
-  }
+if (!fs.existsSync(BUILD_FOLDER)) {
+  fs.mkdirSync(BUILD_FOLDER);
+}
 
-  downloadFolder(process.env.GOOGLE_DRIVE_FOLDER_ID, BUILD_FOLDER);
-
+downloadFolder(process.env.GOOGLE_DRIVE_FOLDER_ID, BUILD_FOLDER)
+.then(() => {
   console.log('All files downloaded successfully.');
-} catch (err) {
+})
+.catch((err) => {
   console.error('Error:', err.message);
   process.exit(1);
-}
+});
