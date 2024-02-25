@@ -8,14 +8,10 @@
   "packageManager": "yarn@1.22.5",
   "license": "MIT",
   "scripts": {
-    "build": "./scripts/build.sh",
-    "serve": "npx http-server ./dist -o"
+    "build": "mkdocs build && cp -R static/ site/",
+    "serve": "npx http-server ./site -o"
   },
   "devDependencies": {
-    "dotenv": "^16.4.1",
     "http-server": "^14.1.1"
-  },
-  "dependencies": {
-    "googleapis": "^131.0.0"
   }
 }

@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: bgradin/public-docs
+collections:
+  - name: pages
+    label: Pages
+    folder: docs
+    create: true
+    extension: md
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Featured Image
+        name: thumbnail
+        widget: image
+      - label: Body
+        name: body
+        widget: markdown
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+site_url: https://elmhursthoa.com

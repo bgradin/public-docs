@@ -1,0 +1,13 @@
+site_name: Village on the Green HoA
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Documents: documents.md
+  - FAQs: faqs.md
+  - Contact Us: contact.md
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'blue'
