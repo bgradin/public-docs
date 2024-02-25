@@ -13,6 +13,7 @@ collections:
         widget: string
       - label: Featured Image
         name: thumbnail
+        required: false
         widget: image
       - label: Body
         name: body
