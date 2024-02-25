@@ -1,5 +1,6 @@
 ---
 title: Contact Us
+description: This page contains contact information for the HOA board and partners
 ---
 
 # Contact Us

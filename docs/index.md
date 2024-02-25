@@ -1,5 +1,6 @@
 ---
 title: HOA
+description: This is the homepage of the site
 ---
 
 # Welcome to [Your HOA Name]

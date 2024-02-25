@@ -1,5 +1,6 @@
 ---
 title: About HOA
+description: This page contains information about the HOA (mission statement, history, etc)
 ---
 
 # About [Your HOA Name]

@@ -1,5 +1,6 @@
 ---
 title: FAQs
+description: Page with frequently asked questions
 ---
 
 # Frequently Asked Questions (FAQ)
