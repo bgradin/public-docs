@@ -8,7 +8,7 @@
   "packageManager": "yarn@1.22.5",
   "license": "MIT",
   "scripts": {
-    "build": "mkdocs build && cp -R static/ site/",
+    "build": "mkdocs build && cp -R static/* site/",
     "serve": "npx http-server ./site -o"
   },
   "devDependencies": {
