@@ -1,6 +1,7 @@
 ---
 title: HOA
 description: This is the homepage of the site
+thumbnail: https://www.mopop.org/media/7190/con-air-mopop-nicolas-cage-so-bad-its-good.jpg
 ---
 
 # Welcome to [Your HOA Name]
