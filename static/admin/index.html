@@ -14,7 +14,7 @@
           var entry = this.props.entry;
           return h('div', {},
             h('h1', {}, entry.getIn(['data', 'title'])),
-            h('div', {"className": "text"}, this.props.widgetFor('description'))
+            h('div', {"className": "text"}, this.props.widgetFor('body'))
           );
         }
       });
