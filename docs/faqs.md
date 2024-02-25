@@ -1,3 +1,7 @@
+---
+title: FAQs
+---
+
 # Frequently Asked Questions (FAQ)
 
 ## General Questions:

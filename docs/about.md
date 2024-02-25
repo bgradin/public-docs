@@ -1,3 +1,7 @@
+---
+title: About HOA
+---
+
 # About [Your HOA Name]
 
 ## Our Story

@@ -1,3 +1,7 @@
+---
+title: HOA
+---
+
 # Welcome to [Your HOA Name]
 
 ## About Us
