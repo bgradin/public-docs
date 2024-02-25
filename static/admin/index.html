@@ -9,7 +9,7 @@
   <body>
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
     <script>
-      var PostPreview = createClass({
+      var PagePreview = createClass({
         render: function() {
           var entry = this.props.entry;
           return h('div', {},
@@ -19,7 +19,7 @@
         }
       });
     
-      CMS.registerPreviewTemplate("posts", PostPreview);
+      CMS.registerPreviewTemplate("pages", PagePreview);
     </script>
   </body>
 </html>
