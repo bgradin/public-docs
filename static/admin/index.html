@@ -13,8 +13,7 @@
         render: function() {
           var entry = this.props.entry;
           return h('div', {},
-            h('strong', {"className": "preview-tag"}, "Preview"),
-            h('h1', {}, entry.getIn(['data', 'title'])),
+            h('h1', {}, "Page preview: " + entry.getIn(['data', 'title'])),
             h('div', {"className": "text"}, this.props.widgetFor('body'))
           );
         }
